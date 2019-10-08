@@ -13,7 +13,7 @@ module.exports = {
   },
   authStrategies: {
     userPass: true,
-    userPassToken: true
+    apiToken: true
   },
   local: {
     usernameField: 'username',
