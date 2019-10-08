@@ -1,4 +1,4 @@
-var path = require('path');
+var path = require('path')
 
 // These are the default settings that will be used if you don't override them in your config
 module.exports = {
@@ -10,6 +10,10 @@ module.exports = {
     tokenLife: 86400,
     loginOnRegistration: false,
     loginOnPasswordReset: false
+  },
+  authStrategies: {
+    userPass: true,
+    userPassToken: true
   },
   local: {
     usernameField: 'username',
@@ -41,4 +45,4 @@ module.exports = {
       format: 'text'
     }
   }
-};
+}
