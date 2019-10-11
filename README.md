@@ -1,6 +1,13 @@
-# @sensu/superlogin [![Build Status](https://travis-ci.org/sen-su/superlogin.png?branch=master)](https://travis-ci.org/sen-su/superlogin)
+# @jaredthirsk/superlogin
 
-## An up-to-date version of superlogin that is actually published.
+A fork of @sensu/superlogin, which seems to be a strong contender as a current / maintained version of the original @colinskow/superlogin, (which seems to be broken and out of date.)
+
+Features I add to @sensu's version:
+ - options to disable
+   - authenticating to superlogin via API token  (`authStrategies.userPassToken = false`)
+   - authenticating to superlogin via username and password (`authStrategies.userPass = false`)
+
+# Superlogin
 
 SuperLogin is a full-featured NodeJS/Express user authentication solution for APIs and Single Page Apps (SPA) using CouchDB or Cloudant.
 
