@@ -1,3 +1,13 @@
+# @wwoods/superlogin
+
+Notes:
+
+* User config = `{testMode: {noEmail: true}}` to disable e-mail.
+
+Changes:
+
+* 2019-10-29: Fixed lib/local.js, which improperly used config.authStrategies instead of config.getItem('authStrategies').
+
 # @jaredthirsk/superlogin
 
 A fork of @sensu/superlogin, which seems to be a strong contender as a current / maintained version of the original @colinskow/superlogin, (which seems to be broken and out of date.)
