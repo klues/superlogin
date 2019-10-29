@@ -6,6 +6,7 @@ Notes:
 
 Changes:
 
+* 2019-10-29: Fixed unintelligible error message when unavailable endpoint is requested.
 * 2019-10-29: Fixed lib/local.js, which improperly used config.authStrategies instead of config.getItem('authStrategies').
 
 # @jaredthirsk/superlogin
